@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My YouTube.com
+        </title>
+        <style>
+            .Images
+            {
+                display: grid;
+                grid-template-columns: repeat(3,480px);
+                column-gap: 10px;
+                row-gap:25px;
+                cursor: pointer;
+                margin-top: -10px;
+                align-items: center;
+                padding-left: 80px;
+               margin-top: 70px;
+                right: 0px;
+          
+                
+            
+            }
+            .img1:hover
+            {
+                opacity: 0.7;
+            }
+            .img1
+            {
+                height: 258px;
+                width: 458px;
+                border-radius: 20px;
+                align-items: center;
+                
+
+            }
+            .Header
+            {
+                display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               margin-bottom: 30px;
+               width: 1440px;
+               height: 55px;
+               align-items: center;
+               border-color: rgb(160, 153, 153);
+               border-width: 2px;
+               border: none;
+               padding-left: 70px;
+               position: fixed;
+               top: 0px;
+              
+              
+            }
+            .YouTube
+            {
+                height: 90px;
+                width: 123px;
+                padding-left: 20px;
+                
+            }
+            .left-bar,.right-bar
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .Mike,.Bell,.Account
+            {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                margin-left: 10px;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                margin-left: 20px;
+                margin-right: 5px;
+                
+            }
+            .Mike:hover
+            {
+                opacity: 0.7;
+            }
+            .Mike:active
+            {
+                opacity: 0.4;
+            }
+            .Bell:hover
+            {
+                opacity: 0.7;
+            }
+            .Bell:active
+            {
+                opacity: 0.4;
+            }
+            .Home,.Shorts,.Subscription,.account,.ThreeLines,.Search
+            {
+                height: 40px;
+                width: 40px;
+                border-radius: 20px;
+                cursor: pointer;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+           
+            .Side-bar
+            {
+                display: flex;
+                flex-direction:column;
+                width: 30px;
+                position: fixed;
+                top: 10px;
+                align-items: center;
+            }
+            .ThreeLines:hover
+            {
+                
+                opacity: 0.7;
+            }
+            .middle-bar
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 5px;
+                max-width: 300px;
+            }
+            .Search.hover
+            {
+                opacity: 0.7;
+            }
+            .Search.active
+            {
+                opacity: 0.4;
+            }
+            @media(max-width:500px)
+            {
+                .body
+                {
+                    min-width: 200px;
+                }
+            }
+        
+          
+        </style>
+    </head>
+    <body style="height: 1000px; background-color: rgb(1, 1, 1); width: 1000px;">
+       <div class="Header">
+        <div class="left-bar">
+            
+              <img  class="YouTube" src="youtube.jpg">
+        </div>
+        <div class="middle-bar">
+            
+                <input style="color:grey; font-family: arial; width: 300px; height:30px;border-radius:20px;padding-left:5px;"type="text" placeholder="search">
+                <img class="Search" src="search.png">
+        
+            
+        </div>
+        <div class="right-bar">
+           <img title="Mic" class="Mike" src="mike.jpg">
+           <img title="Bell"class="Bell" src="Bell.jpg">
+           <img title="Account"class="Account" src="Account.jpg">
+        </div>
+       </div>
+       <div class="Side-bar">
+        <img title="Menu" class="ThreeLines" src="threelines.webp">
+       <img title="Home"class="Home" src="home.jpg">
+       <p style="color: white; margin-top: 5px;font-size:12px;">Home</p>
+       <img title="Shorts"class="Shorts" src="shorts.png">
+       <p style="color: white; margin-top: 5px;font-size:12px;">Shorts</p>
+       <img title="Subscribe"class="Subscription" src="subscriptions.png">
+       <p style="color: white; margin-top: 5px; font-size:12px;">Subscribe</p>
+       <img title="Your Account"class="account" src="account.webp">
+       <p style="color: white; margin-top: 5px;font-size:12px;">You</p>
+    
+       </div>
+        
+        
+        <div class="Images">
+            <div>
+            <img class="img1" src="hqdefault.jpg">
+            <img style="height: 80px; width: 80px; border-radius: 40px;" src="profile2.jpg">
+            
+            <p style="font-family: arial; color: black; font-weight: 500px; margin-left:90px; margin-top: -70px; color:white;">Mix - Electronic music</p>
+            <p style="font-family: arial; color: grey; font-size: 13px; width: 250px; margin-top:-9px;margin-left:90px">MoonDeity,INTERWORLD,vyrval,and more updated today</p>
+            </div>
+            <div>
+                    <img class="img1" src="sport-car-running-on-the-road-in-future-city-created-with-generative-ai-free-photo.jpg">
+                    <img style="height: 80px; width: 80px; border-radius: 40px;" src="profile3.jpg">
+                    <p style="font-family: arial; color: black; font-weight: 500px; margin-left:90px; margin-top: -70px; color:white;">Ferrai-Music</p>
+                    <p style="font-family: arial; color: grey; font-size: 13px; width: 250px; margin-top:-9px;margin-left:90px">Bass Boosted By DJ Vishal</p>
+            </div>
+            <div>
+                <img class="img1" src="Game changer.avif">
+                <img style="height: 80px; width: 80px; border-radius: 40px;" src="Profile1.jpg">
+                <p style="font-family: arial; color: black; font-weight: 500px; margin-left:90px; margin-top: -70px; color:white;">Game Changer Trailer Launch LIVE</p>
+                <p style="font-family: arial; color: grey; font-size: 13px; width: 130px; margin-top:-9px;margin-left:90px">TV9 Entertainment &check; 7.6k watching</p>
+            </div>
+            <div>
+            <img class="img1" src="hqdefault (1).jpg">
+            <img style="height: 80px; width: 80px; border-radius: 40px;" src="profile5.jpg">
+            <p style="font-family: arial; color: black; font-weight: 500px; margin-left:90px; margin-top: -70px; color:white;">Mix - Luis Fonsi - Despacito ft.Daddy Yankee (8D AUDIO)</p>
+            <p style="font-family: arial; color: grey; font-size: 13px; width: 250px; margin-top:-9px;margin-left:90px">Avicii,Daddy Yankee,Ed Sheeran,and more Updated today</p>
+</div>
+<div>
+    <img class="img1" src="HTML course.avif">
+    <img style="height: 80px; width: 80px; border-radius: 40px;" src="profile6.jpg">
+    <p style="font-family: arial; color: black; font-weight: 500px; margin-left:90px; margin-top: -70px; color:white;">HTML & CSS Full Course - Beginner to Pro</p>
+    <p style="font-family: arial; color: grey; font-size: 12px; width: 127px; margin-top:-9px;margin-left:90px">SuperSimpleDev &check; 13M views &dot;2 years ago</p>
+</div>
+<div>
+    <img class="img1" src="Java course.avif">
+    <img style="height: 80px; width: 80px; border-radius: 40px;" src="profile6.jpg">
+    <p style="font-family: arial; color: black; font-weight: 500px; margin-left:90px; margin-top: -70px; color:white;">JAVA Full Course-Beginner to Pro</p>
+    <p style="font-family: arial; color: grey; font-size: 12px; width: 127px; margin-top:-9px;margin-left:90px">SuperSimpleDev &check; 13M views &dot;2 years ago</p>
+</div>
+
+
+ </div>
+
+       
+    </body>
+</html>
